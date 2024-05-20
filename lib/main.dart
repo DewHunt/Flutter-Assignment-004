@@ -11,6 +11,7 @@ class PhotoGalleryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Photo Gallery App",
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
